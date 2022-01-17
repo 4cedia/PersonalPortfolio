@@ -1,0 +1,24 @@
+#navbar {
+  background: linear-gradient(180deg, rgba(14, 21, 126, 0.986) 4%, rgb(235, 0, 0) 87.5%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+body {
+  background: rgb(235, 0, 0);
+  position: absolute;
+  top: 85px;
+}
+
+@media (max-width: 400px) {
+  body {
+    width: fit-content;
+  }
+}
